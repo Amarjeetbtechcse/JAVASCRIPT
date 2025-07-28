@@ -121,7 +121,8 @@
 
 
 
-// //QUESTION TIME:
+// //QUESTION TIME:use switch statement to print the day of the week using a number variable 'day' with values 1 to 7.
+
 // let day=8;
 // switch(day){
 //     case 1:
@@ -167,12 +168,13 @@
 
 
 
-alert("You can visit this website if you haapy if happy click ok 🤣");
+alert("You can visit this website if you haapy click ok 🤣");
 
     let fs=prompt("Enter your first name");
     let ls=prompt("Enter your last name");
     let message="Welcome" + " " + fs + " " + ls + "!";
     alert(message);
     console.log(message);
+    console.error("red color me error🥰");
 
 
