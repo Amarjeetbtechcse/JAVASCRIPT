@@ -36,10 +36,10 @@
 
 
 
-// let cars = ["audi","bmw","xuv","maruti"];
+let cars = ["audi","bmw","xuv","maruti"];
 
-// let bike = ['Hero','honda','yamaha','splender','activa'];
-// console.log(cars.concat(bike));
+let bike = ['Hero','honda','yamaha','splender','activa'];
+console.log(cars.concat(bike));
 
 
 
