@@ -1,3 +1,4 @@
+//guessing game 
 const max = prompt("enter the max number");
 
 const random = Math.floor(Math.random() * max) + 1;
