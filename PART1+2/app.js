@@ -1,13 +1,13 @@
-let a=5;
-let b=6;
-console.log(`Sum of a&b is:${a+b} rupees`);
-console.log(`product of a&b is:${a*b} rupees`);// template literal in js
+// let a=5;
+// let b=6;
+// console.log(`Sum of a&b is:${a+b} rupees`);
+// console.log(`product of a&b is:${a*b} rupees`);// template literal in js
 
 
-//arithmetic in js 
+// //arithmetic in js 
 // let a=10;
 // let b=5;
-// console.log(a+b);
+// console.log(`sum is:${a+b}`);
 // console.log(a-b);
 // console.log(a*b);
 // console.log(a**b);
@@ -15,7 +15,12 @@ console.log(`product of a&b is:${a*b} rupees`);// template literal in js
 // console.log(a%b);
 
 
+
+
+
 // //unary operators
+// let a = 10;
+// let b = 20;
 // console.log(a++);
 // console.log(a++);
 // console.log(++a);
@@ -25,9 +30,11 @@ console.log(`product of a&b is:${a*b} rupees`);// template literal in js
 // console.log(b--);
 // console.log(--b);
 // console.log(--b);
+
 
 
 // //assignment operators
+// let b = 20;
 // console.log(a=b);
 // console.log(a+b);
 
@@ -49,10 +56,16 @@ console.log(`product of a&b is:${a*b} rupees`);// template literal in js
 // console.log(s==d);
 // console.log(s!=d);
 
+
+
+
 // let n=5;
-// typeof n
+// console.log(typeof n);
+// console.log(n);
 // let str ="5";
-// typeof str;
+
+// console.log(typeof str);
+// console.log(str);
 // //logical operators 
 
 // //unary operator 
@@ -66,9 +79,11 @@ console.log(`product of a&b is:${a*b} rupees`);// template literal in js
 
 
 // //logical Operator
-// let marks = 77;
-// if ((marks > 33 && marks <=80) || !false){
+// let marks = 22;
+// if ((marks > 33 && marks <=80)){
 //     console.log("pass");
+// }else{
+//     console.log("fail");
 // }
 
 
@@ -95,12 +110,15 @@ console.log(`product of a&b is:${a*b} rupees`);// template literal in js
 
 
 
-////for truthy and falsy conditions checking
+
+// //for truthy and falsy conditions checking
 // if("") {
 //     console.log("true value");
 // }else{
 //     console.log("not true value");
 // }
+
+
 
 
 // let string = "amar";
@@ -122,13 +140,12 @@ console.log(`product of a&b is:${a*b} rupees`);// template literal in js
 
 
 
-
 // //QUESTION TIME:use switch statement to print the day of the week using a number variable 'day' with values 1 to 7.
 
-// let day=8;
+// let day=3
 // switch(day){
 //     case 1:
-//         console.log("Monday");
+//         console.log("Monday")
 //         break;
 //         case 2:
 //         console.log("tuesday");
@@ -162,21 +179,16 @@ console.log(`product of a&b is:${a*b} rupees`);// template literal in js
 // console.error("hey! error detected");
 // console.warn("This is a warning message ?");
 
-// let name=prompt("Enter your number: ")
-//     console.log(name);
+let name=prompt("Enter your number: ")
+    console.log(name);
 
+alert("You can visit this website if you happy click ok 🤣");
 
-
-
-
-
-// alert("You can visit this website if you haapy click ok 🤣");
-
-//     let fs=prompt("Enter your first name");
-//     let ls=prompt("Enter your last name");
-//     let message="Welcome" + " " + fs + " " + ls + "!";
-//     alert(message);
-//     console.log(message);
-//     console.error("red color me error🥰");
+    let fs=prompt("Enter your first name");
+    let ls=prompt("Enter your last name");
+    let message="Welcome" + " " + fs + " " + ls + "!";
+    alert(message);
+    console.log(message);
+    console.error("red color me error🥰");
 
 
