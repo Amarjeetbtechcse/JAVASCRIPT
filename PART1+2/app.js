@@ -1,6 +1,8 @@
-// let a=5;
-// let b=6;
-// console.log(`Sum of a&b is:${a+b} rupees`);
+let a=5;
+let b=6;
+console.log(`Sum of a&b is:${a+b} rupees`);
+console.log(`product of a&b is:${a*b} rupees`);// template literal in js
+
 
 //arithmetic in js 
 // let a=10;
@@ -168,13 +170,13 @@
 
 
 
-alert("You can visit this website if you haapy click ok 🤣");
+// alert("You can visit this website if you haapy click ok 🤣");
 
-    let fs=prompt("Enter your first name");
-    let ls=prompt("Enter your last name");
-    let message="Welcome" + " " + fs + " " + ls + "!";
-    alert(message);
-    console.log(message);
-    console.error("red color me error🥰");
+//     let fs=prompt("Enter your first name");
+//     let ls=prompt("Enter your last name");
+//     let message="Welcome" + " " + fs + " " + ls + "!";
+//     alert(message);
+//     console.log(message);
+//     console.error("red color me error🥰");
 
 
